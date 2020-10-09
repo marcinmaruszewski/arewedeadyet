@@ -97,7 +97,8 @@
             </div>
             However, after the initial outbreak a significant part of populatian has been infected and any new outbreaks are dimished in this metric.
             <hr>
-            <a href="#tdoubling">#</a> The same data can be visualized more intuitively as the <em>doubling time</em>,
+            <a href="#
+                     bling">#</a> The same data can be visualized more intuitively as the <em>doubling time</em>,
             i.e. the time it takes for the confirmed count to double. It is given below for reference.
             <canvas id="tdoubling"></canvas>
             <p class="card-text">
@@ -430,7 +431,7 @@
             cconfig.options.title.text = 'Corona infection doubling time comparison'
             cconfig.options.scales.yAxes[0].scaleLabel.labelString = "days"
             cconfig.options.scales.yAxes[0].ticks.min = 0.5
-            cconfig.options.scales.yAxes[0].ticks.max = 50
+            cconfig.options.scales.yAxes[0].ticks.max = 75
             cconfig.options.tooltips.position = "nearest"
             cconfig.data.datasets = getDatasets(data, getDoublingTime, countries, false)
             cconfig.data.labels = labels
